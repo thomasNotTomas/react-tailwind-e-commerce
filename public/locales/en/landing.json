@@ -1,0 +1,14 @@
+{
+    "b1title": "First Banner", 
+    "b2title": "Second Banner",
+    "b3title": "Third Banner",
+    "b1subtitle": "First Subtitle",
+    "b2subtitle": "Second Subtitle",
+    "b3subtitle": "Third Subtitle",
+    "b1btn1": "Button 1",
+    "b1btn2": "Button 2",
+    "b2btn1": "Button 3",
+    "b2btn2": "Button 4",
+    "b3btn1": "Button 5",
+    "b3btn2": "Button 6"
+}

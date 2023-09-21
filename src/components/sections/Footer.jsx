@@ -1,12 +1,15 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next';
 import logo from '../../assets/svg/logo.svg'
 import PrimaryList from '../navigation/PrimaryList'
 
 export default function Footer() {
 
-  const aboutList = ['Who We Are', 'Contact', 'Find Stores']
-  const promosList = ['Gift Cards', 'Discounts']
-  const legalsList = ['Cookie Policy', 'Privacy Policy', 'Terms & Conditions', 'Refunds']
+  const { t } = useTranslation(["footer"]);
+
+  const aboutList = [t('aboutItem1'), t('aboutItem2'), t('aboutItem3')]
+  const promosList = [t('promosItem1'), t('promosItem2')]
+  const legalsList = [t('legalsItem1'), t('legalsItem2'), t('legalsItem3'), t('legalsItem4')]
 
   return (
     <footer className='flex flex-col
@@ -19,15 +22,15 @@ export default function Footer() {
 
       <div className='flex justify-center space-x-8'>
         <PrimaryList 
-          title={'About'}
+          title={t('aboutTitle')}
           items={aboutList}>
         </PrimaryList>
         <PrimaryList 
-          title={'Promos'}
+          title={t('promosTitle')}
           items={promosList}>
         </PrimaryList>
         <PrimaryList
-          title={'Legals'}
+          title={t('legalsTitle')}
           items={legalsList}>
         </PrimaryList>
       </div>
