@@ -2,6 +2,7 @@ import React from 'react'
 import { useTranslation } from 'react-i18next';
 import logo from '../../assets/svg/logo.svg'
 import PrimaryList from '../navigation/PrimaryList'
+import { DesktopLogo } from '../../assets/svg/DesktopLogo';
 
 export default function Footer() {
 
@@ -14,11 +15,9 @@ export default function Footer() {
   return (
     <footer className='flex flex-col
                        md:flex-row md:justify-between 
-                       p-8 m-auto max-w-3xl'>
-      <img
-        className='h-16 md:h-24' 
-        src={logo} 
-        alt="" />
+                       p-8 space-y-8 m-auto max-w-3xl'>
+
+      <DesktopLogo></DesktopLogo>
 
       <div className='flex justify-center space-x-8'>
         <PrimaryList 

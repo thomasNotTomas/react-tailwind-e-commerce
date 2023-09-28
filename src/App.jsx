@@ -3,7 +3,7 @@ import MainLayout from './components/layouts/MainLayout.jsx'
 
 export default function App() {
   return (
-    <section>
+    <section className='bg-primary-100 dark:bg-secondary-100'>
       <MainLayout></MainLayout>
     </section>
   )

@@ -8,7 +8,8 @@ export default function () {
   return (
     <div>
         <Navbar></Navbar>
-        <section className='flex'>
+        <section className='flex 
+                            '>
             <Sidebar></Sidebar>
             <Landing></Landing>
         </section>
