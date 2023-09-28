@@ -2,13 +2,15 @@
     "b1title": "Primer Banner", 
     "b2title": "Segundo Banner",
     "b3title": "Tercer Banner",
+    "b4title": "Cuarto Banner",
     "b1subtitle": "Primer Subtitulo",
     "b2subtitle": "Segundo Subtitulo",
     "b3subtitle": "Tercer Subtitulo",
+    "b4subtitle" : "Cuarto Subtitulo",
     "b1btn1": "Botón 1",
     "b1btn2": "Botón 2",
     "b2btn1": "Botón 3",
-    "b2btn2": "Botón 4",
-    "b3btn1": "Botón 5",
-    "b3btn2": "Botón 6"
+    "b3btn1": "Botón 4",
+    "b3btn2": "Botón 5",
+    "b4btn1": "Botón 6"
 }
