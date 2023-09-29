@@ -1,10 +1,11 @@
 import React from 'react'
+import { useState } from 'react'
 import { LightModeIcon } from '../../assets/svg/LightModeIcon'
 import { DarkModeIcon } from '../../assets/svg/DarkModeIcon'
-
 import Toggle from '../navigation/Toggle'
 
 export default function Settings() {
+
   return (
     <div className='bg-primary-100 dark:bg-secondary-100
                     flex space-x-8 
