@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function MainBanner( {children, title, subtitle, background, bgposition} ) {
+export default function PrimaryBanner( {children, title, subtitle, background, bgposition} ) {
   return (
     <div className={`p-4 md:p-8 w-full bg-cover text-primary-100 ${background} ${bgposition}`}>
         <div className='space-y-32'>

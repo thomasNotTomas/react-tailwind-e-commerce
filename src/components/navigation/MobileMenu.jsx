@@ -20,33 +20,33 @@ export default function MobileMenu() {
 
                     {/* CATEGORIES */}
 
-                    <button className='w-full'
+                    <div className='w-full'
                             onClick={toggleCategory1}>
                     <MobileMenuItem title={'CATEGORY 1'}>
 
                     </MobileMenuItem>
-                    </button>
+                    </div>
 
-                    <button className='w-full'
+                    <div className='w-full'
                             onClick={toggleCategory2}>
                     <MobileMenuItem title={'CATEGORY 2'}> 
 
                     </MobileMenuItem>
-                    </button>
+                    </div>
 
-                    <button className='w-full'
+                    <div className='w-full'
                             onClick={toggleCategory3}>
                     <MobileMenuItem title={'CATEGORY 3'}> 
 
                     </MobileMenuItem>
-                    </button>
+                    </div>
 
-                    <button className='w-full'
+                    <div className='w-full'
                             onClick={toggleCategory4}>
                     <MobileMenuItem title={'CATEGORY 4'}> 
 
                     </MobileMenuItem>
-                    </button>
+                    </div>
                     </div>
 
                     {/* SUB CATEGORIES */}

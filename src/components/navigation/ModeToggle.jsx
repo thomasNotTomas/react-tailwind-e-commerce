@@ -1,7 +1,7 @@
 import React from 'react'
 import useToggleClass from '../../utils/hooks/useToggleClass'
 
-export default function Toggle() {
+export default function ModeToggle() {
 
     const { isClassActive, toggleClassState } = useToggleClass(false);
 
