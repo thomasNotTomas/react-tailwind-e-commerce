@@ -12,5 +12,14 @@
     "b2btn1": "Botón 3",
     "b3btn1": "Botón 4",
     "b3btn2": "Botón 5",
-    "b4btn1": "Botón 6"
+    "b4btn1": "Botón 6",
+    "infoB1title": "ENTERATE PRIMERO",
+    "infoB2title": "TIENDAS CERCA TUYO",
+    "infoB3title": "SOPORTE",
+    "infoB1paragraph": "",
+    "infoB2paragraph": "",
+    "infoB3paragraph": "",
+    "infoB1btn": "SUSCRIBIRSE",
+    "infoB2btn": "BUSCAR TIENDAS",
+    "infoB3btn": "AYUDA"
 }

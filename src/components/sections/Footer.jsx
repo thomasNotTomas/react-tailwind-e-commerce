@@ -19,7 +19,8 @@ export default function Footer() {
 
       <DesktopLogo></DesktopLogo>
 
-      <div className='flex justify-center space-x-8'>
+      <div className='flex justify-center 
+                      space-x-8'>
         <PrimaryList 
           title={t('aboutTitle')}
           items={aboutList}>

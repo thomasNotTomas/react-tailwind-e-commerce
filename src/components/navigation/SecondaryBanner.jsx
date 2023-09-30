@@ -3,7 +3,8 @@ import SecondaryButton from './SecondaryButton'
 
 export default function SecondaryBanner( {children, title, paragraph, button} ) {
   return (
-    <div className='flex flex-col items-center text-center space-y-4'>
+    <div className='flex flex-col items-center text-center 
+                    space-y-4'>
         <div className='w-24'>
             {children}
         </div>

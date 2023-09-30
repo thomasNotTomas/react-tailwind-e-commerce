@@ -12,5 +12,14 @@
     "b2btn1": "Button 3",
     "b3btn1": "Button 4",
     "b3btn2": "Button 5",
-    "b4btn1": "Button 6"
+    "b4btn1": "Button 6",
+    "infoB1title": "FIND OUT FIRST",
+    "infoB2title": "STORES NEAR YOU",
+    "infoB3title": "SUPPORT",
+    "infoB1paragraph": "",
+    "infoB2paragraph": "",
+    "infoB3paragraph": "",
+    "infoB1btn": "SUSCRIBE",
+    "infoB2btn": "FIND STORES",
+    "infoB3btn": "GET HELP"
 }

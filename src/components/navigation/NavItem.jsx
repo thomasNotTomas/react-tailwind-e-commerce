@@ -15,8 +15,8 @@ export default function NavItem( {text} ) {
         <h3> {text} </h3>
 
         <div className={`md:hidden
-                            transition-all ease-in-out 1000ms
-                            ${isClassActive ? '-rotate-90' : 'rotate-90'}`}>
+                         transition-all ease-in-out 1000ms
+                         ${isClassActive ? '-rotate-90' : 'rotate-90'}`}>
           <Arrow></Arrow>
         </div>
 

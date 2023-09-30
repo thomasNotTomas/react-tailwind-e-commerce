@@ -4,7 +4,7 @@ import useToggleClass from '../../utils/hooks/useToggleClass'
 
 export default function MobileMenuItem( {title} ) {
 
-    const { isClassActive, toggleClassState } = useToggleClass(false);
+    const { toggleClassState } = useToggleClass(false);
 
   return (
     <div className='px-4 font-semibold '>

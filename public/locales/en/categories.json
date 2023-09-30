@@ -1,0 +1,18 @@
+{
+    "category1" : "FIND",
+    "category2" : "FOOTWEAR",
+    "category3" : "TOPS",
+    "category4" : "BOTTOMS",
+    "category1sub1" : "For men",
+    "category1sub2" : "For women",
+    "category1sub3" : "For kids",
+    "category2sub1" : "Boots",
+    "category2sub2" : "Shoes",
+    "category2sub3" : "Sneakers",
+    "category3sub1" : "Jerseys",
+    "category3sub2" : "Hoodies",
+    "category3sub3" : "Polos",
+    "category4sub1" : "Shorts",
+    "category4sub2" : "Joggers",
+    "category4sub3" : "Underwear"
+}

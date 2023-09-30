@@ -1,0 +1,18 @@
+{
+    "category1" : "BUSCAR",
+    "category2" : "CALZADO",
+    "category3" : "TORSO",
+    "category4" : "PIERNAS",
+    "category1sub1" : "Hombre",
+    "category1sub2" : "Mujer",
+    "category1sub3" : "Niños",
+    "category2sub1" : "Botines",
+    "category2sub2" : "Zapatos",
+    "category2sub3" : "Zapatillas",
+    "category3sub1" : "Remeras",
+    "category3sub2" : "Buzos",
+    "category3sub3" : "Chombas",
+    "category4sub1" : "Shorts",
+    "category4sub2" : "Joggings",
+    "category4sub3" : "Ropa interior"
+}
