@@ -6,6 +6,8 @@ import NavItem from './NavItem'
 import MobileMenu from './MobileMenu'
 import Settings from '../sections/Settings'
 import { SettingsIcon } from '../../assets/svg/SettingsIcon'
+import Searchbar from './Searchbar'
+import { SearchIcon } from '../../assets/svg/SearchIcon'
 
 export default function Navbar() {
 
@@ -14,6 +16,8 @@ export default function Navbar() {
   const { isClassActive: isMobileMenuActive, toggleClassState: toggleMobileMenuState } = useToggleClass(false);
 
   const { isClassActive: isSettingsActive, toggleClassState: toggleSettingsState } = useToggleClass(false);
+
+  const { isClassActive: isSearchActive, toggleClassState: toggleSearchState } = useToggleClass(false);
 
   return (
     <div className='w-full h-auto
@@ -34,10 +38,16 @@ export default function Navbar() {
           </div>
         </div>
         {/* Right Side */}
-        <button onClick={toggleSettingsState}>
-          <SettingsIcon>
-          </SettingsIcon>
-        </button>
+        <div className='space-x-8'>
+          <button onClick={toggleSearchState}>
+            <SearchIcon></SearchIcon>
+          </button>
+
+          <button onClick={toggleSettingsState}>
+            <SettingsIcon>
+            </SettingsIcon>
+          </button>
+        </div>
       </nav>
 
       <div className={`absolute z-30 w-full
@@ -51,6 +61,12 @@ export default function Navbar() {
                         transition-all ease-in-out duration-500 transform
                         ${isSettingsActive ? 'translate-y-0' : '-translate-y-full'}`}>
         <Settings></Settings>
+      </div>
+
+      <div className={` absolute z-40 w-full 
+                        transition-all ease-in-out duration-500 transform
+                        ${isSearchActive ? 'translate-y-0' : '-translate-y-full' } `}>
+        <Searchbar></Searchbar>
       </div>
     </div>
   )

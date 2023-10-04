@@ -13,11 +13,15 @@ export default function Footer() {
   const legalsList = [t('legalsItem1'), t('legalsItem2'), t('legalsItem3'), t('legalsItem4')]
 
   return (
-    <footer className='flex flex-col
+    <footer>
+
+      <div className='bg-secondary-100 dark:bg-primary-100
+                      w-full h-px'></div>
+
+      <div className='flex flex-col items-center
                        md:flex-row md:justify-between 
                        p-8 space-y-8 m-auto max-w-3xl'>
-
-      <DesktopLogo></DesktopLogo>
+        <DesktopLogo></DesktopLogo>
 
       <div className='flex justify-center 
                       space-x-8'>
@@ -33,6 +37,7 @@ export default function Footer() {
           title={t('legalsTitle')}
           items={legalsList}>
         </PrimaryList>
+      </div>
       </div>
     </footer>
   )
