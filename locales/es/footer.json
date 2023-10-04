@@ -1,14 +1,14 @@
 {
-    "aboutTitle": "About Us",
-    "aboutItem1": "Who We Are",
-    "aboutItem2": "Contact",
-    "aboutItem3": "Find Stores",
+    "aboutTitle": "Sobre Nosotros",
+    "aboutItem1": "Quiénes somos",
+    "aboutItem2": "Contacto",
+    "aboutItem3": "Tiendas",
     "promosTitle": "Promos",
     "promosItem1": "Gift Cards",
-    "promosItem2": "Discounts",
+    "promosItem2": "Descuentos",
     "legalsTitle": "Legals",
-    "legalsItem1": "Cookie Policy",
-    "legalsItem2": "Privacy Policy",
-    "legalsItem3": "Terms & Conditions",
-    "legalsItem4": "Refunds"
+    "legalsItem1": "Cookies",
+    "legalsItem2": "Privacidad",
+    "legalsItem3": "Terminos y condiciones",
+    "legalsItem4": "Reembolsos"
 }
